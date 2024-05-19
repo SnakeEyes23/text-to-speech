@@ -80,3 +80,20 @@ select{
     background-position-y: 20px;
 
 }
+@media (max-width: 390px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    textarea {
+        height: 180px;
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+
+    select {
+        height: 45px;
+    }
+}
